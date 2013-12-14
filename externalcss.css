@@ -1,0 +1,150 @@
+html,
+body {
+	background-image: url(images/body_bg.jpg);
+	text-align: center;
+	margin: 0;
+	padding: 0;
+	height: 100%;
+	font-family: Arial;
+}
+img {
+	border: 0;
+}
+#container {
+	min-height: 100%;
+	position: relative;
+}
+#navigationbar {
+	position: fixed;
+	width: 100%;
+	height: 42px;
+	top: 0;
+	background-image: url(images/nav_bg.jpg);
+	word-spacing: 30px;
+	overflow: hidden;
+	font-size: 14px;
+	z-index: 1;
+}
+#body {
+	padding-top: 42px;
+	padding-bottom: 46px;
+}
+#bodypara {
+	position: relative;
+	top: 30px;
+	width: 800px;
+	margin-left: auto;
+	margin-right: auto;
+}
+#footer {
+	position: absolute;
+	height: 46px;
+	width: 100%;
+	top: auto;
+	bottom: 0;
+	background-image: url(images/footer_bg.jpg);
+	overflow: hidden;
+	font-size: 13px;
+}
+.nav {
+	position: relative;
+	left: 40px;
+}
+.navlogo {
+	position: relative;
+	left: -40px;
+	vertical-align: middle;
+	border: 0px;
+}
+.captiontitle {
+	font-weight: 200;
+	font-size: 300%;
+	letter-spacing: -2px;
+	margin-bottom: -30px;
+}
+.paraheading {
+	font-size: 20px;
+	margin-top: 110px;
+}
+.imgleftalign {
+	position:relative;
+	float: left;
+	vertical-align: middle;
+	margin-top: 30px;
+	padding: 25px;
+}
+.imgrightalign {
+	position: relative;
+	float: right;
+	vertical-align: middle;
+	margin-top: 50px;
+	padding: 25px;
+}
+.validlogo {
+	position: relative;
+	left: 10px;
+	top: -2px;
+	border: 0;
+	width: 88px;
+	height: 31px;
+	vertical-align: middle;
+}
+.button {
+	background: #1677ab;
+	padding: 5px;
+	-webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    border-radius: 8px;
+    color: white;
+    vertical-align: middle;
+}
+.button:hover {
+    background: #195f8a;
+}
+.button:active {
+    background: #174561;
+}
+.surveyButton{
+	position: relative;
+	margin-left: 160px;
+	display: block;
+	width: 480px;
+	height: 105px;
+	background: url(images/surveybutton.jpg) bottom;
+}
+.surveyButton:hover {
+	background-position: 0 0;
+}
+.registerButton{
+	position: relative;
+	margin-left: 250px;
+	display: block;
+	width: 300px;
+	height: 105px;
+	background: url(images/registerbutton.jpg) bottom;
+}
+.registerButton:hover {
+	background-position: 0 0;
+}
+a:link.nav {
+	color: #999999;
+	text-decoration: none;
+}
+a:visited.nav {
+	color: #999999;
+	text-decoration:none;
+}
+a:hover.nav {
+	color: #FFFFFF;
+}
+a:link {
+	color: #0000FF;
+	text-decoration: none;
+}
+a:visited {
+	color: #0000FF;
+	text-decoration:none;
+}
+a:hover {
+	color: #FF0000;
+}

@@ -1,0 +1,66 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" 
+   "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<title> Create A Survey - Simple Surveys </title>
+		<meta http-equiv = "content-type" content = "text/html;charset=utf-8"/>
+		<meta name = "description" content = "A Simple Survey Question Website"/>
+		<meta name = "author" content = "Eric (Jun) Tan 20925931"/>
+		<link rel = "shortcut icon" href = "favicon.ico"/>
+		<link rel = "stylesheet" type = "text/css" href = "externalcss.css"/>
+		<script type = "text/javascript" src = "onload.js"></script>
+	</head>
+	<body>
+		<div id = "container">
+			<div id = "navigationbar">
+				<a href = "index.html"><img src = "images/nav_title.jpg" alt = "Simple Surveys" class = "navlogo"/></a>
+				<a href = "index.html" class = "nav">Home</a>
+				<a href = "createasurvey.html" class = "nav" style = "word-spacing: 0; color: #FFFFFF">Create a Survey</a>
+				<a href = "contactus.html" class = "nav" style = "word-spacing: 0">Contact Us</a>
+				<a href = "sitemap.html" class = "nav" style = "word-spacing: 0">Site Map</a>
+				<a href = "account.html" class = "nav">Account</a>
+			</div>
+			<div id = "body">
+			    <div id = "bodypara" style = "padding-bottom: 60px">
+					<h1 class = "captiontitle">Start making your very own</h1>
+					<h1 class = "captiontitle">Simple Survey right here, right now.</h1>
+					<p style = "font-size: 20px; margin-top: 80px">What do I need to do?</p>
+					<p>First of all, you're going to need your survey topic and general questions/answers 
+					related to it decided. What is special about being a <i>simple survey</i> is that each survey
+					will be limited to a maximum of <b>10</b> questions, and each question will have anything from
+					<b>2 to 5</b> multiple choice answers. No typing or written answers allowed!</p>
+					<p style = "font-size: 20px">Why not?</p>
+					<p>The main reason of having these special rules for <i>simple surveys</i> is to let the user
+					who is completing the survey for you know that it will be a very fast survey. No "it will take
+					only 15 minutes of your time" stuff here! Each simple survey should be able to be completed by
+					a maximum of 5 minutes, for those who really want to read and answer each question properly. Other's
+					will be easily finished in a matter of seconds. What we want to achieve with our <i>simple surveys</i>
+					is the guarantee that the survey will be a fast one!</p>
+					<p style = "font-size: 20px">So what are you waiting for? Start here!</p>
+					<p style = "font-size: 12px">All you need to do to get started is tell us how many questions you want in your survey:</p>
+					<div style = "position: relative; margin-top: 20px; margin-left: 250px; width: 300px; height: 60px; background-image: url(images/startsurvey.png); padding: 5px">
+						<form action = "createasurvey2.html">
+							<p>Number of Questions:
+							<select name = "nQuestion" style = "margin-left: 6px; margin-right: 6px">
+								<option>1</option>
+								<option>2</option>
+								<option>3</option>
+								<option>4</option>
+								<option>5</option>
+								<option>6</option>
+								<option>7</option>
+								<option>8</option>
+								<option>9</option>
+								<option>10</option>
+							</select>
+							<button id = "startsurvey" type = "submit" class = "button" style = "margin-top: -3px">Go!</button></p>
+						</form>
+					</div>
+				</div>
+			</div>
+			<script type = "text/javascript">
+				addFooter();
+			</script>
+		</div>
+	</body>
+</html>

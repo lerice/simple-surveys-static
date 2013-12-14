@@ -1,0 +1,45 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" 
+   "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<title> Contact Us - Simple Surveys </title>
+		<meta http-equiv = "content-type" content = "text/html;charset=utf-8"/>
+		<meta name = "description" content = "A Simple Survey Question Website"/>
+		<meta name = "author" content = "Eric (Jun) Tan 20925931"/>
+		<link rel = "shortcut icon" href = "favicon.ico"/>
+		<link rel = "stylesheet" type = "text/css" href = "externalcss.css"/>
+		<script type = "text/javascript" src = "contactus.js"></script>
+		<script type = "text/javascript" src = "onload.js"></script>
+	</head>
+	<body>
+		<div id = "container">
+			<div id = "navigationbar">
+				<a href = "index.html"><img src = "images/nav_title.jpg" alt = "Simple Surveys" class = "navlogo"/></a>
+				<a href = "index.html" class = "nav">Home</a>
+				<a href = "createasurvey.html" class = "nav" style = "word-spacing: 0">Create a Survey</a>
+				<a href = "contactus.html" class = "nav" style = "word-spacing: 0; color: #FFFFFF">Contact Us</a>
+				<a href = "sitemap.html" class = "nav" style = "word-spacing: 0">Site Map</a>
+				<a href = "account.html" class = "nav">Account</a>
+			</div>
+			<div id = "body">
+			    <div id = "bodypara" style = "padding-bottom: 60px">
+					<h1 class = "captiontitle">Contact Us</h1>
+					<p style = "margin-top: 50px">Say hello, give us advice, ask a question, anything!</p>
+					<div style = "position: relative; margin-top: 50px; margin-left: 100px; width: 590px; height: 290px; background-image: url(images/contactus_bg.png); padding: 5px">
+						<form id = "contactusForm" action = "index.html">
+							<p>Your Email Address:</p>
+							<p><input type = "text" id = "email" size = "70"/></p>
+							<p>Message:</p>
+							<p><textarea id = "message" rows = "4" cols = "65" style = "resize: none; font-family: Arial">Your Message Here</textarea></p>
+							<p><button id = "send" type = "submit" style = "margin-top: -5px" class = "button">Send!</button></p>
+						</form>
+					</div>
+				</div>
+			</div>
+			<script type = "text/javascript">
+				addFooter();
+			</script>
+		</div>
+		<script type = "text/javascript" src = "contactus_eh.js"></script>
+	</body>
+</html>
